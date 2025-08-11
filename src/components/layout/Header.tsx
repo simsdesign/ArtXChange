@@ -198,7 +198,7 @@ export const Header: React.FC = () => {
               {/* Back to Top Button */}
               <button
                 onClick={scrollToTop}
-                className="hidden md:block p-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors ml-2"
+                className="p-2 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-colors ml-2"
                 aria-label="Back to top"
               >
                 <ArrowUp className="w-5 h-5" />

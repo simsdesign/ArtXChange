@@ -11,30 +11,6 @@ export const Hero: React.FC<{ onOpenGuerrillaModal: () => void }> = ({ onOpenGue
 
   return (
     <>
-      {/* Mobile Mini-Navigation */}
-      <div className="lg:hidden bg-gray-800 border-b border-gray-700 mobile-nav-enhanced">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex items-center justify-center space-x-6 py-4">
-            <Link to="/signin">
-              <Button size="sm" variant="outline" icon={LogIn} className="border-gray-400 text-gray-300 hover:bg-white hover:text-gray-900">
-                Sign In
-              </Button>
-            </Link>
-            <Link to="/signup">
-              <Button size="sm" variant="outline" icon={UserPlus} className="border-gray-400 text-gray-300 hover:bg-white hover:text-gray-900">
-                Join Us
-              </Button>
-            </Link>
-            <Link 
-              to="/newsletter" 
-              className="text-lg font-medium text-gray-300 hover:text-white transition-colors smooth-scroll"
-            >
-              Newsletter
-            </Link>
-          </div>
-        </div>
-      </div>
-
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/10"></div>
         
